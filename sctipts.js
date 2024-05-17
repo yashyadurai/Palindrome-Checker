@@ -7,7 +7,7 @@ function palindromeChecker() {
     let userInput = inputField.value.replace(regex,"").toLowerCase();
 
     if(userInput === ""){
-        alert("Please input a value");
+        return alert("Please input a value");
     }
     if (userInput === userInput.split("").reverse().join("")) {
         ans.innerText = `${userInput1} is a palindrome`
