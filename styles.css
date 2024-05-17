@@ -20,8 +20,6 @@ body{
     text-align: center;
 }
 #input-section{
-    /* display: grid;
-    grid-area: ""; */
     margin: 0 auto;
     width: fit-content;
     display: flex;
